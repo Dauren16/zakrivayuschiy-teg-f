@@ -1,1 +1,1 @@
-https://dauren16.github.io/zakrivayuschiy-teg-f/
+https://github.com/Dauren16/zakrivayuschiy-teg-f
