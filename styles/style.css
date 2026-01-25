@@ -236,17 +236,6 @@
   flex-shrink: 0;
 }
 
-.button {
-  position: relative;
-  border: 2px solid var(--border-color);
-  padding: 9px 17px;
-  block-size: 38px;
-  inline-size: 130px;
-  background-color: var(--bg-color);
-  align-items: center;
-  justify-content: center;
-}
-
 .button-area__save-button {
   display: flex;
   gap: 8px;
