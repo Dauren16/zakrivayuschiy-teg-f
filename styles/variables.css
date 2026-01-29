@@ -11,7 +11,9 @@
   --border-color: #000;
   --storke-color: #fff;
   --bg-color-secondary: #d3d3d3;
-  --heart-color: #FF0000;
+  --animation-fill-color: #FF0000;
   --color-black: #000;
   --font-weight: 400;
+  --vr-font-weight: 410;
+  --like-contour: #000;
 }

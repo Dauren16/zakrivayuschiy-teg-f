@@ -159,8 +159,7 @@
   color: var(--text-color);
   font-size: 18px;
   line-height: 21px;
-  font-weight: 400;
-  font-variation-settings: 'wght' 400;
+  font-variation-settings: 'wght' var(--vr-font-weight);
 }
 
 .article__descr:nth-child(1) {
@@ -180,6 +179,8 @@
   background-color: var(--bg-color);
   align-items: center;
   justify-content: center;
+  transition: box-shadow 0.3s ease;
+  color: var(--bg-color);
 }
 
 .button:focus-visible, .button:focus {
@@ -228,12 +229,11 @@
 }
 
 .floppy {
-  fill: var(--color-black);
-  stroke: var(--bg-color);
-  mix-blend-mode: difference;
   width: 21px;
   height: 21px;
   flex-shrink: 0;
+  fill: currentColor;
+  mix-blend-mode: difference;
 }
 
 .button-area__save-button {
@@ -249,7 +249,6 @@
 
 .button:focus-visible {
   box-shadow: 2px 2px 0 0px var(--color-black);
-  transition: box-shadow 0.3s ease;
 }
 
 .button-area {
@@ -261,7 +260,7 @@
 }
 
 .dialog::backdrop {
-  background-color: rgba(0 0 0 / 0.8);
+  background-color: rgba(0 0 0 / 0.75);
 }
 
 .dialog {
@@ -324,9 +323,9 @@
 
 .floppy-secondary {
   fill: var(--color-black);
-  stroke: var(--color-black);
   block-size: 39px;
   inline-size: 39px;
+  flex-shrink: 0;
 }
 
 .dialog__descr {
